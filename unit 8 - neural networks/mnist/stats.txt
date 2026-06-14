@@ -1,0 +1,4 @@
+Architecture: [784, 300, 100, 10]
+Misclassified for mnist_train.csv: 0.212%
+Misclassified for mnist_test.csv: 1.87%
+Epochs: 28

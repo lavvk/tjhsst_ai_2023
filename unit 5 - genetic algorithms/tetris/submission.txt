@@ -1,0 +1,468 @@
+Lavanya Krishna
+PD 5 Tetris Strategy 2024 AI
+
+
+(control+f Q# + . to get to the specific question ex: 1.)
+
+1. 
+
+Proof of increasing avgs:: 
+
+avg: 792.2
+gen num: 0
+
+avg: 4438.2
+gen num: 1
+
+avg: 10980.24
+gen num: 2
+
+avg: 19169.0
+gen num: 3
+------------------------------------------------------
+
+2.
+On average it would take me 4-5 generations to get above 50,000 
+as the final score. My best run is 3 generations:
+This took me around an hour
+best strategy: [-0.035038876022835286, -0.4631137142080738, 0.4029089791519691, -0.03204911099903096] with score: 17572.0
+best strategy: [-0.43618810176854494, -0.4484831868221878, 0.4299341691396157, -0.19106441435290322] with score: 33824.0
+best strategy: [-0.38503526965250867, -0.4631137142080738, 0.4029089791519691, -0.19106441435290322] with score: 39660.0
+best strategy: [-0.32814338426406664, -0.4631137142080738, 0.4029089791519691, -0.1354082615498755] with score: 58272.0
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+lavanyakrishna@Lavanyas-MBP-2 tetris % /usr/local/bin/python3 "/Users/lavanyakrishna/Downloads/ai/unit 5 genetic algos/tetris/nice.py"
+(n)ew , or (l)oad previous? n
+strategy 0 : 88.0
+strategy 1 : 0.0
+strategy 2 : 0.0
+strategy 3 : 240.0
+strategy 4 : 64.0
+strategy 5 : 0.0
+strategy 6 : 0.0
+strategy 7 : 0.0
+strategy 8 : 0.0
+strategy 9 : 0.0
+strategy 10 : 184.0
+strategy 11 : 0.0
+strategy 12 : 0.0
+strategy 13 : 24.0
+strategy 14 : 9884.0
+strategy 15 : 0.0
+strategy 16 : 40.0
+strategy 17 : 0.0
+strategy 18 : 0.0
+strategy 19 : 0.0
+strategy 20 : 0.0
+strategy 21 : 80.0
+strategy 22 : 0.0
+strategy 23 : 0.0
+strategy 24 : 0.0
+strategy 25 : 96.0
+strategy 26 : 0.0
+strategy 27 : 16.0
+strategy 28 : 288.0
+strategy 29 : 0.0
+strategy 30 : 0.0
+strategy 31 : 0.0
+strategy 32 : 0.0
+strategy 33 : 0.0
+strategy 34 : 8.0
+strategy 35 : 0.0
+strategy 36 : 0.0
+strategy 37 : 0.0
+strategy 38 : 16.0
+strategy 39 : 500.0
+strategy 40 : 0.0
+strategy 41 : 2788.0
+strategy 42 : 0.0
+strategy 43 : 8.0
+strategy 44 : 17572.0
+strategy 45 : 8.0
+strategy 46 : 16.0
+strategy 47 : 8.0
+strategy 48 : 80.0
+strategy 49 : 24.0
+strategy 50 : 0.0
+strategy 51 : 136.0
+strategy 52 : 8.0
+strategy 53 : 0.0
+strategy 54 : 0.0
+strategy 55 : 8.0
+strategy 56 : 12680.0
+strategy 57 : 0.0
+strategy 58 : 0.0
+strategy 59 : 96.0
+strategy 60 : 0.0
+strategy 61 : 272.0
+strategy 62 : 784.0
+strategy 63 : 0.0
+strategy 64 : 0.0
+strategy 65 : 0.0
+strategy 66 : 4452.0
+strategy 67 : 0.0
+strategy 68 : 8.0
+strategy 69 : 0.0
+strategy 70 : 288.0
+strategy 71 : 8460.0
+strategy 72 : 0.0
+strategy 73 : 0.0
+strategy 74 : 0.0
+strategy 75 : 3064.0
+strategy 76 : 0.0
+strategy 77 : 0.0
+strategy 78 : 16.0
+strategy 79 : 0.0
+strategy 80 : 14260.0
+strategy 81 : 0.0
+strategy 82 : 352.0
+strategy 83 : 56.0
+strategy 84 : 0.0
+strategy 85 : 0.0
+strategy 86 : 392.0
+strategy 87 : 0.0
+strategy 88 : 116.0
+strategy 89 : 1612.0
+strategy 90 : 0.0
+strategy 91 : 0.0
+strategy 92 : 88.0
+strategy 93 : 0.0
+strategy 94 : 0.0
+strategy 95 : 0.0
+strategy 96 : 0.0
+strategy 97 : 0.0
+strategy 98 : 0.0
+strategy 99 : 40.0
+avg: 792.2
+gen num: 0
+best strategy: [-0.035038876022835286, -0.4631137142080738, 0.4029089791519691, -0.03204911099903096] with score: 17572.0
+(p)lay w best strategy, (s)ave, or (c)ontinue? c
+strategy 0 : 16580.0
+strategy 1 : 32860.0
+strategy 2 : 16388.0
+strategy 3 : 9368.0
+strategy 4 : 10348.0
+strategy 5 : 2116.0
+strategy 6 : 3080.0
+strategy 7 : 3208.0
+strategy 8 : 1804.0
+strategy 9 : 1448.0
+strategy 10 : 328.0
+strategy 11 : 272.0
+strategy 12 : 428.0
+strategy 13 : 208.0
+strategy 14 : 216.0
+strategy 15 : 220.0
+strategy 16 : 316.0
+strategy 17 : 196.0
+strategy 18 : 164.0
+strategy 19 : 8.0
+strategy 20 : 64.0
+strategy 21 : 88.0
+strategy 22 : 72.0
+strategy 23 : 160.0
+strategy 24 : 56.0
+strategy 25 : 21284.0
+strategy 26 : 3016.0
+strategy 27 : 5140.0
+strategy 28 : 11252.0
+strategy 29 : 11532.0
+strategy 30 : 8.0
+strategy 31 : 360.0
+strategy 32 : 12516.0
+strategy 33 : 1392.0
+strategy 34 : 4652.0
+strategy 35 : 1556.0
+strategy 36 : 1416.0
+strategy 37 : 6032.0
+strategy 38 : 3728.0
+strategy 39 : 21660.0
+strategy 40 : 276.0
+strategy 41 : 780.0
+strategy 42 : 396.0
+strategy 43 : 16876.0
+strategy 44 : 848.0
+strategy 45 : 16.0
+strategy 46 : 748.0
+strategy 47 : 5620.0
+strategy 48 : 8.0
+strategy 49 : 440.0
+strategy 50 : 24824.0
+strategy 51 : 508.0
+strategy 52 : 3848.0
+strategy 53 : 1396.0
+strategy 54 : 468.0
+strategy 55 : 7404.0
+strategy 56 : 33824.0
+strategy 57 : 40.0
+strategy 58 : 5096.0
+strategy 59 : 5944.0
+strategy 60 : 6184.0
+strategy 61 : 5556.0
+strategy 62 : 684.0
+strategy 63 : 11920.0
+strategy 64 : 640.0
+strategy 65 : 5792.0
+strategy 66 : 7992.0
+strategy 67 : 6892.0
+strategy 68 : 7556.0
+strategy 69 : 11008.0
+strategy 70 : 420.0
+strategy 71 : 948.0
+strategy 72 : 7376.0
+strategy 73 : 152.0
+strategy 74 : 572.0
+strategy 75 : 16.0
+strategy 76 : 2016.0
+strategy 77 : 772.0
+strategy 78 : 16.0
+strategy 79 : 900.0
+strategy 80 : 1012.0
+strategy 81 : 1132.0
+strategy 82 : 3160.0
+strategy 83 : 3448.0
+strategy 84 : 312.0
+strategy 85 : 56.0
+strategy 86 : 9832.0
+strategy 87 : 16.0
+strategy 88 : 9428.0
+strategy 89 : 3976.0
+strategy 90 : 3404.0
+strategy 91 : 5716.0
+strategy 92 : 376.0
+strategy 93 : 0.0
+strategy 94 : 904.0
+strategy 95 : 3572.0
+strategy 96 : 1340.0
+strategy 97 : 3036.0
+strategy 98 : 376.0
+strategy 99 : 412.0
+avg: 4438.2
+gen num: 1
+best strategy: [-0.43618810176854494, -0.4484831868221878, 0.4299341691396157, -0.19106441435290322] with score: 33824.0
+(p)lay w best strategy, (s)ave, or (c)ontinue? c
+strategy 0 : 27952.0
+strategy 1 : 35376.0
+strategy 2 : 14520.0
+strategy 3 : 39660.0
+strategy 4 : 7436.0
+strategy 5 : 13232.0
+strategy 6 : 12692.0
+strategy 7 : 6016.0
+strategy 8 : 27068.0
+strategy 9 : 9380.0
+strategy 10 : 15932.0
+strategy 11 : 8552.0
+strategy 12 : 8832.0
+strategy 13 : 7744.0
+strategy 14 : 3108.0
+strategy 15 : 5500.0
+strategy 16 : 6448.0
+strategy 17 : 4152.0
+strategy 18 : 6016.0
+strategy 19 : 1760.0
+strategy 20 : 5844.0
+strategy 21 : 4804.0
+strategy 22 : 13364.0
+strategy 23 : 9660.0
+strategy 24 : 8720.0
+strategy 25 : 8484.0
+strategy 26 : 1120.0
+strategy 27 : 8732.0
+strategy 28 : 6580.0
+strategy 29 : 15260.0
+strategy 30 : 980.0
+strategy 31 : 28436.0
+strategy 32 : 4904.0
+strategy 33 : 29376.0
+strategy 34 : 9304.0
+strategy 35 : 11116.0
+strategy 36 : 37652.0
+strategy 37 : 7648.0
+strategy 38 : 23852.0
+strategy 39 : 2588.0
+strategy 40 : 2608.0
+strategy 41 : 14632.0
+strategy 42 : 96.0
+strategy 43 : 13820.0
+strategy 44 : 6376.0
+strategy 45 : 3520.0
+strategy 46 : 30080.0
+strategy 47 : 10816.0
+strategy 48 : 35380.0
+strategy 49 : 23988.0
+strategy 50 : 7704.0
+strategy 51 : 2264.0
+strategy 52 : 3524.0
+strategy 53 : 12684.0
+strategy 54 : 29768.0
+strategy 55 : 7296.0
+strategy 56 : 860.0
+strategy 57 : 168.0
+strategy 58 : 5472.0
+strategy 59 : 5296.0
+strategy 60 : 35668.0
+strategy 61 : 7524.0
+strategy 62 : 8420.0
+strategy 63 : 9980.0
+strategy 64 : 1508.0
+strategy 65 : 17544.0
+strategy 66 : 19132.0
+strategy 67 : 34852.0
+strategy 68 : 1880.0
+strategy 69 : 8548.0
+strategy 70 : 112.0
+strategy 71 : 2492.0
+strategy 72 : 8008.0
+strategy 73 : 18320.0
+strategy 74 : 11812.0
+strategy 75 : 716.0
+strategy 76 : 33708.0
+strategy 77 : 3304.0
+strategy 78 : 0.0
+strategy 79 : 4656.0
+strategy 80 : 6688.0
+strategy 81 : 10164.0
+strategy 82 : 5940.0
+strategy 83 : 3728.0
+strategy 84 : 14060.0
+strategy 85 : 5436.0
+strategy 86 : 4468.0
+strategy 87 : 16684.0
+strategy 88 : 5956.0
+strategy 89 : 2756.0
+strategy 90 : 8280.0
+strategy 91 : 9228.0
+strategy 92 : 4180.0
+strategy 93 : 17992.0
+strategy 94 : 1632.0
+strategy 95 : 4896.0
+strategy 96 : 112.0
+strategy 97 : 2416.0
+strategy 98 : 7768.0
+strategy 99 : 21304.0
+avg: 10980.24
+gen num: 2
+best strategy: [-0.38503526965250867, -0.4631137142080738, 0.4029089791519691, -0.19106441435290322] with score: 39660.0
+(p)lay w best strategy, (s)ave, or (c)ontinue? c
+strategy 0 : 30976.0
+strategy 1 : 19344.0
+strategy 2 : 21404.0
+strategy 3 : 30084.0
+strategy 4 : 29868.0
+strategy 5 : 46964.0
+strategy 6 : 20080.0
+strategy 7 : 16304.0
+strategy 8 : 5212.0
+strategy 9 : 34708.0
+strategy 10 : 15172.0
+strategy 11 : 19524.0
+strategy 12 : 12468.0
+strategy 13 : 35480.0
+strategy 14 : 9808.0
+strategy 15 : 39884.0
+strategy 16 : 17080.0
+strategy 17 : 15592.0
+strategy 18 : 24664.0
+strategy 19 : 19996.0
+strategy 20 : 14116.0
+strategy 21 : 10916.0
+strategy 22 : 9964.0
+strategy 23 : 6252.0
+strategy 24 : 13392.0
+strategy 25 : 23140.0
+strategy 26 : 41108.0
+strategy 27 : 33216.0
+strategy 28 : 0.0
+strategy 29 : 14676.0
+strategy 30 : 21200.0
+strategy 31 : 23424.0
+strategy 32 : 19252.0
+strategy 33 : 9180.0
+strategy 34 : 29120.0
+strategy 35 : 32504.0
+strategy 36 : 19288.0
+strategy 37 : 9496.0
+strategy 38 : 12780.0
+strategy 39 : 15556.0
+strategy 40 : 22796.0
+strategy 41 : 5884.0
+strategy 42 : 14132.0
+strategy 43 : 18276.0
+strategy 44 : 1436.0
+strategy 45 : 8960.0
+strategy 46 : 20536.0
+strategy 47 : 16896.0
+strategy 48 : 10464.0
+strategy 49 : 27840.0
+strategy 50 : 6304.0
+strategy 51 : 17768.0
+strategy 52 : 7344.0
+strategy 53 : 5572.0
+strategy 54 : 30452.0
+strategy 55 : 20676.0
+strategy 56 : 11900.0
+strategy 57 : 23344.0
+strategy 58 : 25404.0
+strategy 59 : 3684.0
+strategy 60 : 50236.0
+strategy 61 : 4508.0
+strategy 62 : 12212.0
+strategy 63 : 28312.0
+strategy 64 : 3856.0
+strategy 65 : 3968.0
+strategy 66 : 33604.0
+strategy 67 : 26416.0
+strategy 68 : 9884.0
+strategy 69 : 22004.0
+strategy 70 : 20968.0
+strategy 71 : 6108.0
+strategy 72 : 19580.0
+strategy 73 : 1716.0
+strategy 74 : 46720.0
+strategy 75 : 5768.0
+strategy 76 : 35604.0
+strategy 77 : 20428.0
+strategy 78 : 6292.0
+strategy 79 : 30248.0
+strategy 80 : 58272.0
+strategy 81 : 148.0
+strategy 82 : 38616.0
+strategy 83 : 3576.0
+strategy 84 : 17136.0
+strategy 85 : 11156.0
+strategy 86 : 26400.0
+strategy 87 : 20884.0
+strategy 88 : 45808.0
+strategy 89 : 46268.0
+strategy 90 : 9976.0
+strategy 91 : 6692.0
+strategy 92 : 1068.0
+strategy 93 : 9144.0
+strategy 94 : 24188.0
+strategy 95 : 10144.0
+strategy 96 : 49944.0
+strategy 97 : 12924.0
+strategy 98 : 7384.0
+strategy 99 : 5880.0
+avg: 19169.0
+gen num: 3
+best strategy: [-0.32814338426406664, -0.4631137142080738, 0.4029089791519691, -0.1354082615498755] with score: 58272.0
+(p)lay w best strategy, (s)ave, or (c)ontinue? s
+filename: nice.txt
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. 
+From the coefficients of my best strategy and given the rules for tetris, it was
+assumed that big gaps and really tall columns would not be prefered, since that ends
+the game faster, thus making it not the optimal strategy. So when the values for 
+a, b, and d were negative, it made sense. 
+
+4.
+I like this assignment. I like how this application of genetic algorithms
+shows an actual application on how what we learn in AI can be used in real life.
+Similar to Othello, Suduku, and Train Routes from semester 1, this application of Genetic Algos
+along with MNIST are probably my favorite applications of what we learned in units.
+Although it was a bit difficult to optimize and reach the target specifications,
+I liked the learning process and trial and error with the coefficient values. 
+

@@ -1,0 +1,14 @@
+* Patrons
+	* None --> No
+	* Full
+		* Hungry
+			* No --> No
+			* Yes
+				* Type
+					* Italian --> No
+					* Burger --> Yes
+					* Thai
+						* Friday or Saturday?
+							* No --> No
+							* Yes --> Yes
+	* Some --> Yes
